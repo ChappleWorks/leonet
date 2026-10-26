@@ -27,3 +27,7 @@ nav a{color:#eee4d8}
 .actions .button:not(.secondary-button):hover{filter:brightness(1.14);transform:translateY(-2px)}
 .actions .secondary-button{color:#f5ece3;border:1px solid #ffffff40;background:linear-gradient(180deg,#ffffff42 0%,#ffffff18 10%,#3c3432cc 47%,#171412ee 53%,#100e0ef2 100%);box-shadow:inset 0 1px 2px #ffffff80,inset 0 10px 15px #ffffff0d,0 6px 16px #0007}
 .actions .secondary-button:hover{background:linear-gradient(180deg,#ffffff55 0%,#ffffff25 10%,#51423acc 47%,#251915ee 53%,#16100ef2 100%);box-shadow:inset 0 1px 2px #ffffffa0,0 7px 20px #0009;transform:translateY(-2px)}
+
+/* Matching dark glass actions that glow orange on hover. */
+.actions .button:not(.secondary-button),.actions .secondary-button{color:#f5ece3;border:1px solid #ffffff40;background:linear-gradient(180deg,#ffffff42 0%,#ffffff18 10%,#3c3432cc 47%,#171412ee 53%,#100e0ef2 100%);box-shadow:inset 0 1px 2px #ffffff80,inset 0 10px 15px #ffffff0d,0 6px 16px #0007;transition:transform .2s,box-shadow .2s,background .2s}
+.actions .button:not(.secondary-button):hover,.actions .secondary-button:hover{color:#fff8ee;border-color:#ee9a62;background:linear-gradient(180deg,#ffd3b5 0%,#ee8c4c 9%,#c44e15 42%,#9c310b 53%,#7c2308 100%);box-shadow:inset 0 1px 2px #ffffffc9,inset 0 10px 15px #ffd2ab44,0 0 20px #ff7b3c80,0 6px 16px #0008;transform:translateY(-2px);filter:none}
