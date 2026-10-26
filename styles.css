@@ -8,3 +8,9 @@
 /* Replace assets/leonet-logo.png to update the logo throughout the site. */
 .brand img{display:block;width:150px;max-width:100%;height:auto}
 @media(max-width:480px){.brand img{width:130px}}
+
+/* Button design preview: filled copper and outlined copper. */
+.button{border-radius:10px;border-color:#ff9a64;background:linear-gradient(135deg,#ffad73 0%,#ff7b3c 42%,#e85f28 100%);box-shadow:inset 0 1px 0 #ffffff80,0 5px 16px #ff7b3c22;transition:transform .2s,box-shadow .2s,filter .2s}
+.button:hover{background:linear-gradient(135deg,#ffc092 0%,#ff8d4c 45%,#f46b30 100%);box-shadow:inset 0 1px 0 #ffffff99,0 8px 22px #ff7b3c40;transform:translateY(-2px)}
+.nav-cta{border-radius:10px;border-color:#d4875a;background:linear-gradient(135deg,#ffffff0d,#ffffff00 55%);box-shadow:inset 0 1px 0 #ffffff12;transition:background .2s,border-color .2s,box-shadow .2s}
+.nav-cta:hover{background:#ff7b3c16;border-color:#ff9a64;box-shadow:0 4px 18px #ff7b3c22}
